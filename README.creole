@@ -1,0 +1,12 @@
+build support for Go language in Emacs.
+
+When you open a Go file in a standard Go project format this should
+set your compile command correctly.
+
+=== Todo ===
+
+Make compile-mode handle Go's output properly.
+
+Maybe we could have a default Go project setup, something that made a
+new directory, git init'ed there and put in src, bin, etc...
+
