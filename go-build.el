@@ -49,7 +49,7 @@
 
 ;;;###autoload
 (defun go-build/install-hooks ()
-  (add-hook 'go-mode go-build/make-compile-command-go-get))
+  (add-hook 'go-mode 'go-build/make-compile-command-go-get))
 
 ;;;###autoload
 (eval-after-load 'go-build
